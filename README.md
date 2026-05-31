@@ -1,5 +1,5 @@
-# Solano-post1-u11 — CUDA Benchmark CPU vs GPU
-Arquitectura de Computadores — Unidad 11
+# Solano-post1-u11 - CUDA Benchmark CPU vs GPU
+Arquitectura de Computadores - Unidad 11
 
 ## Descripción del Entorno
 
@@ -11,7 +11,7 @@ Arquitectura de Computadores — Unidad 11
 | CUDA Toolkit | 12.8 |
 | Plataforma | Google Colab |
 
-## Resultados — Suma de Vectores (vectorAdd)
+## Resultados Suma de Vectores (vectorAdd)
 
 | N | CPU (ms) | GPU kernel (ms) | Speedup |
 |---|---|---|---|
@@ -19,7 +19,7 @@ Arquitectura de Computadores — Unidad 11
 | 4M | 9.79 | 0.19 | ~52x |
 | 16M | 39.71 | 0.77 | ~52x |
 
-## Resultados — Multiplicación de Matrices (matMul)
+## Resultados Multiplicación de Matrices (matMul)
 
 | N | Naive (ms) | Tiled (ms) | Speedup |
 |---|---|---|---|
@@ -34,10 +34,13 @@ En la multiplicación de matrices, el tiling con shared memory demuestra una mej
 
 ## Capturas de Checkpoints
 
+**verificación de la GPU**
 <img width="1050" height="506" alt="verificacionGPU" src="https://github.com/user-attachments/assets/0eb62d38-2347-4569-a2f7-04dca17eab32" />
 
+**checkpoint1**
 <img width="1048" height="197" alt="checkpoint1 png" src="https://github.com/user-attachments/assets/763ce30c-70df-42c6-b246-50527806cf21" />
 
+**checkpoint2**
 <img width="1051" height="304" alt="checkpoint2" src="https://github.com/user-attachments/assets/a5b73243-b3d9-4763-bbfe-9481d730906e" />
 
 
